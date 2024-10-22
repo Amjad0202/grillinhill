@@ -1,0 +1,133 @@
+<html lang="en"><head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+    
+    <div class="container">
+        <header>
+            <div class="title">PRODUCT LIST</div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"></path>
+                </svg>
+                <span>0</span>
+            </div>
+        </header>
+        <div class="listProduct">
+
+        <div data-id="1" class="item"><img src="image/i1.png" alt="">
+                <h2> Pizza</h2>
+                <div class="price">Rs.2250</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="2" class="item"><img src="image/i2.png" alt="">
+                <h2> Pasta</h2>
+                <div class="price">Rs.925</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="3" class="item"><img src="image/i3.png" alt="">
+                <h2> Avocado Toast</h2>
+                <div class="price">Rs.350</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="4" class="item"><img src="image/i4.png" alt="">
+                <h2> Sushi Burritos</h2>
+                <div class="price">Rs.575</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="5" class="item"><img src="image/i5.png" alt="">
+                <h2> Acai Bowls</h2>
+                <div class="price">Rs.1250</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="6" class="item"><img src="image/i7.png" alt="">
+                <h2> Laksa</h2>
+                <div class="price">Rs.1300</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="7" class="item"><img src="image/i8.png" alt="">
+                <h2> Tacos</h2>
+                <div class="price">Rs.550</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="8" class="item"><img src="image/i9.png" alt="">
+                <h2>Burgers</h2>
+                <div class="price">Rs.850</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="9" class="item"><img src="image/i10.png" alt="">
+                <h2> Fries</h2>
+                <div class="price">Rs.400</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="10" class="item"><img src="image/i6.png" alt="">
+                <h2> Quinoa Bowls</h2>
+                <div class="price">Rs.1100</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="11" class="item"><img src="image/d1.png" alt="">
+                <h2> Coffee</h2>
+                <div class="price">Rs.120</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="12" class="item"><img src="image/d2.png" alt="">
+                <h2> Matcha Lattes</h2>
+                <div class="price">Rs.640</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="13" class="item"><img src="image/d3.png" alt="">
+                <h2> Kombucha</h2>
+                <div class="price">Rs.480</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="14" class="item"><img src="image/d4.png" alt="">
+                <h2> Smoothies</h2>
+                <div class="price">Rs.750</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="15" class="item"><img src="image/d5.png" alt="">
+                <h2> Fruit Infused Water</h2>
+                <div class="price">Rs.700</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="16" class="item"><img src="image/d6.png" alt="">
+                <h2> Coconut Water</h2>
+                <div class="price">Rs.350</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="17" class="item"><img src="image/d7.png" alt="">
+                <h2> Teas</h2>
+                <div class="price">Rs.240</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="18" class="item"><img src="image/d8.png" alt="">
+                <h2> Vegetable Juices</h2>
+                <div class="price">Rs.220</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="19" class="item"><img src="image/d9.png" alt="">
+                <h2> Sparkling Water</h2>
+                <div class="price">Rs.220</div>
+                <button class="addCart">Add To Cart</button></div><div data-id="20" class="item"><img src="image/d10.png" alt="">
+                <h2> Milk</h2>
+                <div class="price">Rs.180</div>
+                <button class="addCart">Add To Cart</button></div></div>
+    </div>
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart"></div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut"><a href="./payment/pay.html">Check Out</a></button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body>

@@ -1,0 +1,43 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+bod{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+.container{
+    width:900px;
+    max-width: 990vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+ 
+}
+svg{
+    width: 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+header .icon-cart span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+}   
+
+.bi bi-cart-check{
+    margin-left: 50px;
+}
+
+.bi bi-cart-fill{
+    margin-left: 50px;
+}
