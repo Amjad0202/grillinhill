@@ -3,7 +3,10 @@
 
 Welcome to GrillinHill, a premier dining destination where our chefs craft flavorful stories on each plate using the finest locally-sourced ingredients. Our inviting space, combined with a commitment to community and sustainability, makes every occasion unforgettable. Join us and savor culinary artistry at its finest!
 
-![GrillinHill Banner](assets/img/img1.png)
+
+<p align="center">
+  <img src="grillinhill/assets/img/img1.png" alt="GrillinHill Logo" width="300"/>
+</p>
 
 ## 📖 Table of Contents
 
